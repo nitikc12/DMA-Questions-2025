@@ -71,7 +71,9 @@ Include the provided question for your exercise and your answer in the space pro
 #### Answer ####
 > *Please provide your answer in this space*
 > 
-> 
+> When a 3x2 grid layout designed for portrait orientation is rotated to landscape, it can become less usable due to the reduced vertical space and increased horizontal space. Typically, layouts adapt to meet user expectations to provide a better user experience across different orientations. In this scenario, the preference would likely be to switch the 3x2 grid to a 2x3 grid in landscape orientation to better utilize the wider screen.
+
+We can achieve this adaptive layout in Jetpack Compose by using Composables that are aware of the device's orientation. The androidx.compose.ui.platform.LocalConfiguration provides access to the current device configuration, including the orientation
 > 
 > 
 
